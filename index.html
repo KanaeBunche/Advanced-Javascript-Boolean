@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>To-Do List</h1>
+        <div class="controls">
+            <input type="text" id="addTaskInput" placeholder="Add a new task...">
+            <button id="addTaskBtn">Add Task</button>
+        </div>
+    </header>
+    <main>
+        <div id="taskList" class="task-list">
+             <!-- New Task be inserted here by JavaScript -->
+        </div>
+        <div class="filters">
+            <button id="allTasksBtn">All Tasks</button>
+            <button id="activeTasksBtn">Active Tasks</button>
+            <button id="completedTasksBtn">Completed Tasks</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
